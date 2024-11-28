@@ -1,0 +1,110 @@
+
+body{
+
+    margin: 0;
+    font-family: spotify-bold;
+    background-color: rgb(34, 32, 32);
+    color: white;
+
+}
+
+@font-face {
+    font-family: spotify-bold;
+    src: url(Spotify-Font/Gotham-Bold.otf);}
+@font-face {
+    font-family: spotify;
+    src: url(Spotify-Font/GothamMedium.ttf);
+}
+
+.gambar  {
+    background-color:#44ffb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gambar img {
+    width: 330px;
+
+}
+.nav-container{
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    background-color: #07301e;
+    position: relative;
+    bottom: 14px;
+}
+.nav-container ul{
+    display: flex;
+ 
+}
+.nav-container li {
+    margin-left: 30px;
+    list-style: none;
+    font-family: spotify-bold;
+}
+.p-music {
+    font-family: spotify-bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.artis-list p {
+font-family: spotify;
+left: 30px;
+position: relative;
+color: white;
+
+
+}
+.artis-list {
+    position: relative;
+    right: 44px;
+    width: 434px;
+}
+.artis-list a{
+    text-decoration: none;
+
+}
+.artis-list li{
+    
+    border-radius: 10px;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    background-color: rgb(32, 31, 31);
+    box-shadow: #52f5ae 2px 3px 8px;
+}
+.artis-list ul{
+
+}
+.artis-list img{
+    border-radius: 100%;
+}
+.lirik {
+    padding: 30px;
+    font-size: 30px;
+    width: 30ch;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:   rgb(219, 10, 10);
+    border-radius: 30px;
+    align-items: center;
+}
+h1{
+    position: relative;
+    left: 8rem;
+}
+.container-lirik {
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
